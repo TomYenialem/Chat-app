@@ -1,3 +1,4 @@
+import Chat from "./Components/Chat/Chat";
 import User from "./Components/UserInfo/User";
 
 
@@ -13,6 +14,7 @@ function App() {
     
           <div className="body-lists">
             <User/>
+            <Chat/>
           </div>
        
     </>
