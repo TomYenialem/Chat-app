@@ -1,5 +1,9 @@
+import User from "./Components/UserInfo/User";
 
-import './App.css'
+
+
+
+
 
 function App() {
  
@@ -7,8 +11,12 @@ function App() {
   return (
     <>
     
+          <div className="body-lists">
+            <User/>
+          </div>
+       
     </>
-  )
+  );
 }
 
-export default App
+export default App;
